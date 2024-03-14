@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/registration.css"">
+  <title>Migthy Ducks Hockey League</title>
+</head>
+
+<body>
+  <header>
+    <h1>Mighty Ducks Hockey League</h1>
+    <nav>
+      <a href=" ../index.html">Home</a>
+  <a href="../views/about.html">About MDHL</a>
+  <a href="../views/game.info.html">Game Information</a>
+  <a href="../views/registration.html">Registration Page</a>
+  <a href="../views/rules.html">Rules & Policies</a>
+  <a href="../views/contact.html">Contact</a>
+  </nav>
+  </header>
+  <main>
+    <section class="section1">
+      <h2>Registration Page</h2>
+      <form class="form" action="../show_data.html" method="get">
+        <fieldset class="fieldset1">
+          <legend>Personal Information</legend>
+          <label for="firstName">Player's First Name:</label>
+          <input type="text" name="firstName" id="firstName" placeholder="First Name">
+
+          <label for="lastName">Last Name:</label>
+          <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+
+          <label for="street">Street Address</label>
+          <input type="text" name="street" id="street">
+
+          <label for="birth">Birth Date</label>
+          <input type="date" name="birth" id="birth">
+
+          <label for="city">City</label>
+          <input type="text" name="city" id="city">
+
+          <label for="zipCode">Zip Code</label>
+          <input type="text" name="zipCode" id="zipCode">
+        </fieldset>
+
+        <fieldset class="fieldset1">
+          <legend>Gender</legend>
+          <label class="checkbox"> Male
+            <input type="radio" name="gender"value="Male">
+          </label>
+
+          <label class="checkbox">Female
+            <input type="radio" name="gender" value="Female">
+          </label>
+        </fieldset>
+
+        <fieldset class="fieldset1">
+          <legend>Grade</legend>
+          <label class="checkbox"> Pre-School
+            <input type="checkbox" name="grade" value="pre-school">
+          </label>
+        </fieldset>
+
+        <fieldset class="fieldset1">
+          <legend>Which Elementary School do you live near?</legend>
+          <legend>Closest School:</legend>
+
+          <label class="checkbox">AJ Katzenmaier
+            <input type="checkbox" name="school" value="AJ Katzenmaier">
+          </label>
+
+          <label class="checkbox">Greenbay
+            <input type="checkbox" name="school" value="school" value="Greenbay">
+          </label>
+
+          <label class="checkbox">Howard A Yeager
+            <input type="checkbox" name="school" value="Greenbay">
+          </label>
+
+          <label class="checkbox">Marjorie P Hart
+            <input type="checkbox" name="school" value="Marjorie P Hart">
+          </label>
+
+          <label class="checkbox">North Elementary
+            <input type="checkbox" name="school" value=">North Elementary">
+          </label>
+
+          <label class="checkbox">South Elementary
+            <input type="checkbox" name="school" value="South Elementary">
+          </label>
+
+        </fieldset>
+
+        <fieldset class="fieldset1">
+          <legend>What position(s) do you normally play? (Check all that play)</legend>
+          <label class="checkbox">Forward
+            <input type="checkbox" name="position" value="Forward">
+          </label>
+          <label class="checkbox">Midfield
+            <input type="checkbox" name="position" value="Midfield">
+          </label>
+          <label class="checkbox">Defense
+            <input type="checkbox" name="position" value="Defense">
+          </label>
+          <label class="checkbox">Goalkeeper
+            <input type="checkbox" name="position" value="Goalkeeper">
+          </label>
+        </fieldset>
+
+        <fieldset class="fieldset1">
+          <legend>Uniform Size</legend>
+          <label class="checkbox">Youth Small
+            <input type="checkbox" name="size" value="Youth Small">
+          </label>
+
+          <label class="checkbox">Youth Medium
+            <input type="checkbox" name="size" value="Youth Medium">
+          </label>
+
+          <label class="checkbox">Youth Large
+            <input type="checkbox" name="size" value="Youth Large">
+          </label>
+
+          <label class="checkbox">Small
+            <input type="checkbox" name="size" value="Small">
+          </label>
+
+          <label class="checkbox">Medium
+            <input type="checkbox" name="size" value="Medium">
+          </label>
+
+          <label class="checkbox">Large
+            <input type="checkbox" name="size" value="Large">
+          </label>
+
+          <label class="checkbox">Extra-Large
+            <input type="checkbox" name="size" value="Extra-Large">
+          </label>
+        </fieldset>
+
+        <fieldset class="fieldset2">
+          <h3>Permision to Play</h3>
+          <p>l _______________________ the parent or guardian of the minor registrant, agree that the registrant and I
+            will abide by all the
+            rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated
+            with hockey and in consideration for the "League" accepting the registrant for its hockey programs and
+            activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated
+            personnel and volunteers,including the facilities used for practices and games, against any claim by or on
+            behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported
+            to or from MDHL sponsored activities,which transportation.
+            By signing below, I herebyagree andauthorizethe above.ln addition, by signing below, lalso acknowledge that
+            I
+            have read the cancellation policy and agree to its terms.
+          </p>
+
+          <p>Parent/GuardianSignature: _______________________</p>
+
+          <label class="date-permission" for="date">Date: </label>
+          <input type="date" name="date" id="date" >
+        </fieldset>
+
+        <button>Enviar</button>
+
+      </form>
+    </section>
+  </main>
+
+  </body>
+
+</html>

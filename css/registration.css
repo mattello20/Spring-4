@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    margin: 1rem;
+}
+
+nav {
+    background-color: #34495e;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section h2 {
+    margin: 1rem 3rem;
+}
+
+form {
+    margin: 1rem;
+}
+
+.form {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+fieldset {
+    border-radius: 10px;
+    border: 9px groove (internal value);
+}
+
+.fieldset1 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 1rem; 
+}
+
+.fieldset2 {
+    padding: 0.7rem;
+}
+
+p{
+    margin: 1rem;
+    text-align: justify;
+}
+
+
+input {
+    border-radius: 5px;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.date-permission {
+    padding: 0.9rem;
+}
+
+button {
+    background-color: #2c3e50;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+button:hover {
+    background-color: white;
+    color: #2c3e50;
+}
